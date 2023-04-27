@@ -1,5 +1,5 @@
-import 'package:flutter_web_dashboard/controllers/menu_controller.dart';
-import 'package:flutter_web_dashboard/controllers/navigation_controller.dart';
+import '../controllers/menu_controller.dart';
+import '../controllers/navigation_controller.dart';
 
-MenuController menuController = MenuController.instance;
+CustomMenuController menuController = CustomMenuController.instance;
 NavigationController navigationController = NavigationController.instance;
